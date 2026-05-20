@@ -1,0 +1,50 @@
+# Python / Backend ignores
+backend/venv/
+backend/.venv/
+**/__pycache__/
+*.py[cod]
+*$py.class
+backend/.env
+backend/.env*
+!backend/.env.example
+
+# Next.js / Frontend ignores
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.*
+frontend/.yarn/*
+!frontend/.yarn/patches
+!frontend/.yarn/plugins
+!frontend/.yarn/releases
+!frontend/.yarn/versions
+
+# testing
+frontend/coverage/
+
+# next.js
+frontend/.next/
+frontend/out/
+
+# production
+frontend/build/
+
+# misc
+.DS_Store
+*.pem
+Thumbs.db
+*.log
+
+# debug
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.pnpm-debug.log*
+
+# env files
+frontend/.env*
+
+# vercel
+frontend/.vercel/
+
+# typescript
+frontend/*.tsbuildinfo
